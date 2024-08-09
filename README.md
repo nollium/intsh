@@ -7,6 +7,8 @@ intsh automates the process of spinning up a listening socket, setting the tty t
 
 It ensures interactive programs like vim can be used flawlessly through reverse-shells.
 
+Python is required on the target side.
+
 ## Usage:
 Local-side (listener):
 ```sh
